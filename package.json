@@ -2,15 +2,24 @@
   "name": "scss",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "gulpfile.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "gulp": "^4.0.2"
+  },
   "devDependencies": {
-    "sass": "^1.58.3",
-    "sass-loader": "^13.2.0",
-    "webpack": "^5.75.0"
+    "browser-sync": "^2.28.1",
+    "del": "^7.0.0",
+    "gulp-file-include": "^2.3.0",
+    "gulp-notify": "^4.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-replace": "^1.1.4",
+    "gulp-version-number": "^0.2.4",
+    "gulp-webp-html-nosvg": "^1.1.1"
   }
 }
