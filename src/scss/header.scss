@@ -1,0 +1,43 @@
+.header {
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  background: rgba(16, 16, 29, 0.9);
+}
+
+.content {
+  margin: 0 auto;
+  height: 100%;
+  max-width: 1172px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  color: #FFFFFF;
+}
+
+.title {
+  font-size: 28px;
+  line-height: 33px;
+  text-transform: uppercase;
+}
+
+.mark {
+  color: #42A9ED;
+  background: none;
+}
+
+.menuList {
+  display: flex;
+  gap: 60px;
+  list-style: none;
+  &__item :hover{
+    color: #43ABF0;
+  }
+}
+
+.link, {
+  text-decoration: none;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
