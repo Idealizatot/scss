@@ -1,0 +1,20 @@
+@import "color";
+
+.button {
+  background: $light;
+  border: 1px solid #6F6D7B;
+  border-radius: 4px;
+  width: 183px;
+  height: 43px;
+  color: $color1;
+  &:hover{
+    background: $mark;
+    color: $light;
+    cursor: pointer;
+  }
+  &_active {
+    background: $color2;
+    color: $light;
+    cursor: pointer;
+  }
+}
