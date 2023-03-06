@@ -1,0 +1,54 @@
+@import "components/color";
+
+.footer {
+  height: 80px;
+  background-color: $color3;
+  &__content {
+    height: 100%;
+    margin: 0 auto;
+    max-width: 1172px;
+    display: grid;
+    grid-template-columns: 340px 4fr 3fr;
+    grid-template-rows: 80px;
+  }
+  &__title {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: $light;
+    display: flex;
+    align-items: center;
+  }
+  &__list {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  &__text {
+    color: $color4;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    &_light {
+      color: $light;
+    }
+  }
+
+  &__element {
+    display: flex;
+    align-items: center;
+    gap: 10px
+  }
+}
+
+.link {
+  text-decoration: none;
+}
+
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
