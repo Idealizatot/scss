@@ -1,0 +1,30 @@
+@import "components/color";
+.orderForm {
+  height: 920px;
+  width: 100%;
+  background-image: url('../img/formBackground.png');
+  background-color: $color6;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  &__content {
+    max-width: 1172px;
+    padding: 120px 0 150px;
+    margin: 0 auto;
+  }
+  &__title {
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $light;
+  }
+  &__subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: $color5;
+    text-align: center;
+  }
+}
